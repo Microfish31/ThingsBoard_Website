@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  
+	  <title>IoT Platform</title>
+	  
+	  <link rel="icon" href="https://i.imgur.com/dkzrtMZ.png">
+	  
+	  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+	</head>
+	
+	<body>
+
+		<span id="Link1">1</span>
+		<span id="Link2">2</span>
+		<span id="Link3">3</span>
+		<span id="Link4">4</span>
+		<span id="Link5">5</span>
+		<span id="Link6">6</span>
+		<span id="Link7">7</span>
+		<span id="explain">8</span>
+		<span id="idea">9</span>
+		<span id="designer">10</span>
+		<span id="start_ask">11</span>
+		
+		<div class = "Menu_Bar">
+			<ul>
+				<li>
+						<a href="#main_page">Main Page</a>
+				</li>
+				
+				<li>
+						<a href="#Link1">Control Panel</a>
+				</li>
+					
+				<li>
+						<a href="#Link2">Devices</a>
+				</li>
+					
+				<li>
+						<a href="#Link3">Warnning</a>
+				</li>
+					
+				<li>
+						<a href="#Link4">Client</a>
+				</li>
+					
+				<li>
+						<a href="#Link5">Advertisement</a>
+				</li>
+					
+				<li>
+						<a href="#Link6">Company</a>
+				</li>
+					
+				<li>
+						<a href="#Link7">Contact</a>
+				</li>
+				
+				<li class = "Active">
+					<a>More</a>
+					<div class = "sub-menu1">
+						<ul>
+							<li><a href="#explain">Manual</a></li>
+							<li><a href="#idea">Design Concept</a></li>
+							<li><a href="#designer">About Us</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<div id = "ask" class="Main_Block">
+				<h1 class="display"><strong>ThingsBoard</strong></h1>
+				<p class="lead">
+					<h4>
+						<strong>Device management, data collection, processing and visualization for your IoT solution.</strong> 
+					</h4>
+				</p>
+				<a class="ask_button" href="#start_ask" role="button"> 
+					<h1>>> Start </h1>
+				</a>
+		</div>
+			
+		<div id = "view_block" class="view">
+    
+			<div class="introduction">
+					<div class="content1">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Control Panel</h2>
+						<p>No Data
+						</p>
+					</div>
+					
+					<div class="content2">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Devices</h2>
+						<p>No Data
+						</p>
+					</div>
+					
+					<div class="content3">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Warnning</h2>
+						<p>No Data
+						</p>
+					</div>
+					<div class="content4">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Client</h2>
+						<p>No Data
+						</p>
+					</div>
+					<div class="content5">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Advertisement</h2>
+						<p>No Data
+						</p>
+					</div>
+					<div class="content6">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Company</h2>
+						<p>No Data
+						</p>
+					</div>
+					<div class="content7">
+						<img src="https://i.imgur.com/FvhFfdb.jpg" width="350" height="280">
+						<h2><i class="text"></i>Contact</h2>
+						<p>No Data
+						</p>
+					</div>
+					<div class="Explain">
+						<a>Manual</a>
+						<p>1</p>
+					</div>
+					<div class="Idea">
+
+						<a>Design Concept</a>
+						<p>2</p>
+					</div>
+					<div class="Designer">
+						<a>About Us</a>
+						<p>3</p>
+					</div>
+			</div>
+
+			<div id = "start_ask" class="Start_Ask">
+				<div class="dialogue">
+					<form action ="/AfterLogin" method="post">
+						<h1><strong>Login</strong></h1>
+						
+						<div class = "User_Name">
+							<p>User Name</p>
+							<p><input type="Input_Area1" placeholder="Input your user name." name ="nm" ></p>
+						</div>
+						
+						<div class ="PSW">
+							<p>PSW</p>
+							<p><input type="Input_Area2" placeholder="Input your PSW." name ="psw" ></p>
+						</div>
+						
+						<div class ="Login">
+							<p><input type="submit" value = "Login"/></p>
+						</div>
+						
+						<div class ="Regist">
+							<p><input type="button" value = "Regist" onclick="javascript:location.href='regist'" /></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

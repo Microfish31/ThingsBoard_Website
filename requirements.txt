@@ -1,0 +1,6 @@
+gunicorn
+flask
+requests
+psycopg2
+json2
+tb-rest-client
