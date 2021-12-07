@@ -1,7 +1,7 @@
 # ThingsBoard Website
 
 ## 編輯環境
-Visual Studio Code
+Visual Studio Code  
 Notepad++
 
 ## 套件安裝需求
