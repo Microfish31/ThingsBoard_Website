@@ -10,6 +10,9 @@ Notepad++
 ## Python 版本
 Python 3.6
 
+## 雲端部屬
+<a href="https://www.heroku.com/" title="Heroku">Heroku</a>
+
 ## 網站介紹
 <a href="https://thingsboard.io/" title="ThingsBoard">ThingsBoard</a>
 
